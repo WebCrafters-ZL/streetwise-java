@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class StreetWiseTattoo {
     
     public static void main(String[] args) {
-        String strResposta, strPronto, strEstiloTattoo, strIndicacao = "", strInformacao = "";
+        String strResposta, strPronto, strEstiloTattoo, strIndicacao = "", strInformacao = "", strNome="STREET WISE TATTOO", strInf="Estudio de tatuagem da zona leste de SP trazendo a sabedoria das ruas diretamente para sua pele!";
         int intEscolhaEstilo, intEscolhaInformacao;
         
         Scanner input = new Scanner(System.in);
@@ -157,6 +157,9 @@ public class StreetWiseTattoo {
             System.out.println("Para o estilo " + strEstiloTattoo + ", te indicamos " + strIndicacao);   
             System.out.println();
             System.out.println("Volte sempre!");
+            System.out.println();
         }
+        System.out.println(strNome);
+        System.out.println(strInf);
     }    
 }
